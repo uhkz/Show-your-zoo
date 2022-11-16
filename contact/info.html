@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css">
+  <style>
+ *{
+  font-family: sans-serif;
+ }
+
+  .backimage {
+    background-image: url(media/panda-4k.jpeg);
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .contact1 {
+    height:1000px;
+  }
+
+  .open {
+    text-align: center;
+    color: white;
+    float: right;
+    background-color: rgba(152, 155, 127);
+    margin: 50px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  table {
+    border: 1px solid;
+    padding: 30px;
+    text-align: left;
+    position: relative;
+  }
+  
+  td {
+    height: 50px;
+  }
+  .mapouter{
+    right: 0;
+    padding-top: 600px;
+    padding-bottom: 50px;
+    left: 78%;
+    position: relative;
+    text-align:right;
+    height:303px;
+    width:388px;
+    margin: 10px;
+  }
+ 
+
+body{
+  background: beige;
+}
+
+.contact-us{
+  width: 250px;
+  background: #fff;
+  padding: 50px;
+  margin: 100px;
+  border-radius: 30px;
+  position: absolute;
+}
+
+.title h1{
+  color: #535274;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form, .form-items{
+  width: 100%;
+}
+
+.form-items .input{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  background: #ebeef1;
+  border: 0px;
+  outline: none;
+  border-radius: 30px;
+}
+
+.form-items .input.message{
+  height: 125px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 15px 15px;
+  resize: none;
+}
+
+.btn{
+  background: #827ffe;
+  text-align: center;
+  color: #fff;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn .fas{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.tekst1 {
+  position: absolute;
+  background-color: rgb(152, 155, 127);
+  margin-top: 100px;
+  margin-left: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.map {
+  position: absolute;
+  left: 30%;
+  top: 80%;
+
+ 
+}
+
+  </style>
+
+<head>
+    <title>Contact</title>
+
+</head>
+<body>
+
+  <header>
+    <img src="media/zoo logo.png" width="75px 50px">
+  </header>
+
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Tickets</a>
+      <a href="#">Contact</a>
+      <a href="#">Nieuws</a>
+      <div class="dropdown">
+        <button class="dropbtn">Dieren
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Landdieren</a>
+          <a href="#">Aquatische dieren</a>
+          </div>
+          </div>
+      <a href="#">Donatie</a> 
+      </div> 
+  </div>  
+  
+  <div class="backimage"></div>
+ <div class="tekst1">
+      <h2>Heb je een vraag aan ons?</h2>
+      <br>
+      <p>Kunt u bepaalde informatie niet vinden op onze wesbite? Dan kan u ons<br>
+         bellen op 0001-0000 tussen 9:00 en 17:00. U kunt ook via het formulier links een vraag stellen via uw mail. </p>
+    </div>
+    <div class="map">
+      <img src="media/map.png" width="80%" height="80%">
+    </div>
+  <div class="contact-us">
+    <div class="title">
+      <h1>Contact ons</h1>
+    </div>
+    <div class="form">
+      <div class="form-items">
+        <input type="text" class="input" placeholder="Naam" required>
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="form-items">
+        <input type="text" class="input" placeholder="Email" required>
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="form-items">
+        <textarea class="input message" cols="30" rows="10" placeholder="Bericht....." required></textarea>
+      </div>
+    </div>
+    
+    <div class="btn">
+      Submit
+      <i class="fas fa-arrow-right"></i>
+    </div>
+   
+    
+    <div class="social-icons">
+      <div class="facebook">
+        <i class="fab fa-facebook-f"></i>
+      </div>
+      <div class="twitter">
+        <i class="fab fa-twitter"></i>
+      </div>
+   
+      </div>
+    </div>
+    
+  </div>
+
+
+
+
+
+<div class="contact1">
+  <div class="open">
+      <h1>Openingstijden</h1>
+      <table>
+        <tr><th>Maandag</th><td>9:00 - 16:30</td></tr>
+        <tr><th>Dinsdag</th><td>9:00 - 16:30</td></tr>
+        <tr><th>Woensdag</th><td>9:00 - 16:30</td></tr>
+        <tr><th>Donderdag</th><td>9:00 - 16:30</td></tr>
+        <tr><th>Vrijdag</th><td>9:00 - 18:00</td></tr>
+        <tr><th>Zaterdag & Zondag</th><td>11:00 - 18:00</td></tr>
+        </table> 
+  </div>
+  <div class="mapouter">
+    <div class="gmap_canvas">
+    <iframe width="388" height="303" id="gmap_canvas" src="https://maps.google.com/maps?q=%20Zoologischer%20Garten%20Berlin%20AG%20Hardenbergplatz%208,%2010787%20Berlin&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+    </iframe><a href="https://putlocker-is.org"></a><br>
+    </div>
+</div>
+
+
+  
+<footer>
+  <div class="socials">
+     <a href="https://www.instagram.com/zooberlin/" target="_blank">
+      <img src="media/instagram-logo.png" alt="" width="20px 20px"></a>
+       </div>
+       <div class="socials">
+        <a href="https://www.youtube.com/channel/UC6ldBFsHEU-8D7Hb6KCFgCA" target="_blank">
+        <img src="media/youtube-symbol.png" alt="" width="20px 20px"></a> 
+        </div>
+        <div class="socials">
+        <a href="https://twitter.com/zooberlin" target="_blank">
+        <img src="media/dove.png" alt="" width="20px 20px"></a>
+        </div>
+        <div class="socials1">
+        <a href="https://www.google.de/maps/place/Dierentuin+van+Berlijn/@52.5081122,13.3380927,17z/data=!4m5!3m4!1s0x47a851aabdc86f69:0x8139eb3ae980ae7e!8m2!3d52.5079196!4d13.3377547" target="_blank">
+        <img src="Media/locatie-removebg-preview.png" alt="" width="23px 23px"></a>
+        </div>       
+    </div>
+</footer>        
+</body>
+</html>      
